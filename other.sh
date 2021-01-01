@@ -1,4 +1,6 @@
+read -p "Press any key to resume1 ..."
 #!/bin/bash
+read -p "Press any key to resume ..."
 printf "Installing RDP Be Patience... " >&2
 {
 sudo useradd -m CollabRDP
