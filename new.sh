@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 printf "Installing RDP Be Patience... " >&2
 {
 sudo useradd -m CollabRDP
