@@ -2,7 +2,7 @@
 printf "Installing RDP Be Patience... " >&2
 {
 sudo useradd -m CollabRDP
-sudo adduser ALOK sudo
+sudo adduser CollabRDP sudo
 echo 'CollabRDP:CollabRDP' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 sudo apt-get update
