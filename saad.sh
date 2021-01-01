@@ -1,4 +1,2 @@
-ls -ltr
-cls
-who
-uptime
+while true
+   print("saad paad")
